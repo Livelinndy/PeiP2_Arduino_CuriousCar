@@ -8,7 +8,7 @@ J'ai cherché sur Internet les projets similaires, sur cette [vidéo](https://ww
 
 Plan approximatif :
 
-![Plan approximatif](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/image/Planning%20approximatif.png?raw=true)
+![Plan approximatif](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/image/Planning%20approximatif.png)
 
 * Séance du 12 janvier 2018
 
