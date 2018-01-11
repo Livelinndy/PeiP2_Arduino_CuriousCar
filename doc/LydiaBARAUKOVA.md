@@ -6,9 +6,9 @@ Durant cette première séance j'ai constitué un magnifique groupe de 1 personn
 
 J'ai cherché sur Internet les projets similaires, sur cette [vidéo](https://www.youtube.com/watch?v=CfL4Pqm9kXI) on peut voir un exemple de réalisation.
 
-Plan approximatif :
+Planning approximatif :
 
-![Plan approximatif](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/image/Planning%20approximatif.png)
+![PlanningApproximatif](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/image/Planning%20approximatif.png)
 
 * Séance du 12 janvier 2018
 
