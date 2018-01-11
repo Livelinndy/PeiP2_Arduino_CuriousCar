@@ -2,19 +2,13 @@ Cahier de suivi du projet de Lydia Baraukova
 ===
 * Séance du 22 décembre 2017
 
-Durant cette première séance j'ai décidé de faire comme projet une voiture commandée par Internet avec caméra web attachée dont l'image et le son sont tranférés vers l'ordinateur de celui qui contrôle la voiture.
+Durant cette première séance j'ai constitué un magnifique groupe de 1 personne (moi). J'ai décidé de faire comme projet une voiture commandée par Internet depuis un ordinateur. Cette voiture aura une caméra web attachée dont l'image et le son seront tranférés vers l'ordinateur de celui qui contrôle la voiture. J'ajouterai aussi 2 mésureurs de distance pour éviter que la voiture se heurte contre des objets; et quelques diodes pour rendre la voiture plus jolie. Optionnelement on peut ajouter un haut-parleur pour transférer des messages prédéfinis.
 
-J'ai cherché sur Internet les projets similaires, sur la vidéo ... on peut voir un exemple de réalisation.
+J'ai cherché sur Internet les projets similaires, sur cette [vidéo](https://www.youtube.com/watch?v=CfL4Pqm9kXI) on peut voir un exemple de réalisation.
 
-Plan de travail :
-1. Acquierir tout le matériel nécessaire, notamment : voiture radiocommandée, module wi-fi
-2. Ajouter un mésureur de distance pour que la voiture ne se heurte pas contre les murs
-3. Installer la caméra web sur la voiture et faire afficher l'image sur l'ordinateur
-4. ...
-5. PROFIT!!!
+Plan approximatif :
+
 
 * Séance du 12 janvier 2018
 
-Présentation
-J'ai apporté une voiture radiocommandée et obtenu un module wi-fi
-Travail sur le point 2 du plan
+Travail sur les points 1 et 2 du plan
