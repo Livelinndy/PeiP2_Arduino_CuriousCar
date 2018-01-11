@@ -12,4 +12,4 @@ Planning approximatif :
 
 * Séance du 12 janvier 2018
 
-Travail sur les points 1 et 2 du plan
+Mettre plus de précision sur le matériel nécessaire et le chercher
