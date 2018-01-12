@@ -12,4 +12,6 @@ Planning approximatif :
 
 * Séance du 12 janvier 2018
 
-Mettre plus de précision sur le matériel nécessaire et le chercher
+J'ai regardé des offres de caméras IP sans fil dans les magasins en ligne, et j'en ai choisi une que je vais commander pour le projet.
+
+J'ai obtenu quelque matériel nécessaire pour le projet, notamment : encore un mésureur de distance, 2 diodes RGB, une diode rouge, une diode bleue et 8 résistances pour les diodes 220 Ohm.
