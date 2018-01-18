@@ -12,8 +12,6 @@ Planning approximatif :
 
 ![Planning approximatif](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Planning%20approximatif.png)
 
-Ce planning peut changer si je finis quelques parties plus vite.
-
 Séance du 12 janvier 2018
 -
 J'ai obtenu quelques composants nécessaires pour le projet, notamment :
