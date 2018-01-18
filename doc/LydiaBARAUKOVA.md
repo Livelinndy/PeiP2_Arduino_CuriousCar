@@ -12,6 +12,10 @@ Planning approximatif :
 
 ![Planning approximatif](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Planning%20approximatif.png)
 
+Ce planning peut changer si je finis quelques parties plus vite.
+
+===
+
 * Séance du 12 janvier 2018
 
 J'ai obtenu quelques composants nécessaires pour le projet, notamment :
@@ -26,6 +30,8 @@ J'ai obtenu quelques composants nécessaires pour le projet, notamment :
 
 J'ai cherché les autres composants nécessaires dans des magasins en ligne.
 
+===
+
 * Séance du 18 janvier 2018
 
 J'ai trouvé sur Internet quelques vidéos avec informations utiles pour le projet :
@@ -37,3 +43,9 @@ J'ai trouvé sur Internet quelques vidéos avec informations utiles pour le proj
 \- [Connecter un haut-parleur à l'Arduino](https://www.youtube.com/watch?v=gi9mqIha8n0)
 
 Pendant toute la séance je travaillais avec la carte Wi-Fi. J'ai installé tous les drivers et les librairies nécessaires et j'ai testé quelques exemples.
+
+===
+
+* Séance du 23 janvier 2018
+
+Présentation
