@@ -1,6 +1,6 @@
-![Polytech](http://www.polytechnice.fr/jahia/jsp/jahia/templates/inc/img/polytech_nice-sophia.png)
-
 Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Polytech'NiceSophia.
+
+![Polytech](http://www.polytechnice.fr/jahia/jsp/jahia/templates/inc/img/polytech_nice-sophia.png)
 
 # PeiP2_Arduino_CuriousCar
 Véhicule avec caméra controlé à longue distance (projet en cours de développement)
@@ -9,7 +9,7 @@ Liste de matériel :
 
 - Voiture radiocommandée (x1)
 - Carte Arduino (x1)
-- Module Wi-Fi ESP8266MOD (x1)
+- Module Wi-Fi NodeMcu Lua basé sur ESP8266 CP2102 (x1)
 - Caméra IP (x1)
 - Mini haut-parleur (x1)
 - Mésureurs de distance HC-SR04 (x2)
