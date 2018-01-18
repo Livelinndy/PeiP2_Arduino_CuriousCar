@@ -9,7 +9,7 @@ Liste de matériel :
 
 - Voiture radiocommandée (x1)
 - Carte Arduino (x1)
-- Module Wi-Fi NodeMcu Lua basé sur ESP8266 CP2102 (x1)
+- Carte [NodeMcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html) avec module Wi-Fi ESP-12E (x1)
 - Caméra IP (x1)
 - Mini haut-parleur (x1)
 - Mésureurs de distance HC-SR04 (x2)
