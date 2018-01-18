@@ -14,7 +14,7 @@ Planning approximatif :
 
 Ce planning peut changer si je finis quelques parties plus vite.
 
-===
+***
 
 * Séance du 12 janvier 2018
 
@@ -30,7 +30,7 @@ J'ai obtenu quelques composants nécessaires pour le projet, notamment :
 
 J'ai cherché les autres composants nécessaires dans des magasins en ligne.
 
-===
+***
 
 * Séance du 18 janvier 2018
 
@@ -44,7 +44,7 @@ J'ai trouvé sur Internet quelques vidéos avec informations utiles pour le proj
 
 Pendant toute la séance je travaillais avec la carte Wi-Fi. J'ai installé tous les drivers et les librairies nécessaires et j'ai testé quelques exemples.
 
-===
+***
 
 * Séance du 23 janvier 2018
 
