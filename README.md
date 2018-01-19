@@ -18,3 +18,11 @@ Liste de matériel :
 - Diode bleue (x1)
 - Résistances 220 Ohm pour les diodes (x8)
 - à compléter.
+
+Etape 1 : installer le soft
+-
+On installe [Arduino IDE](https://www.arduino.cc/en/main/software) si ce n'est pas encore fait. Cet environnement va nous permettre de programmer les cartes Arduino et Node Mcu 1.0.
+
+Ensuite, il faut installer le driver USB correspondant pour pouvoir utiliser votre carte Arduino. J'utilise la carte [ATmega328P Xplained MINI](https://www.microchip.com/developmenttools/productdetails.aspx?partno=atmega328p-xmini), donc j'ai installé [ce driver](users.polytech.unice.fr/~pmasson/Enseignement/driver-atmel-bundle-7.0.712.exe).
+
+Pour pouvoir travailler avec Node Mcu 1.0, on doit installer le driver de CP2102
