@@ -33,6 +33,7 @@ Pour pouvoir travailler avec [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wi
 
 Etape 3 : circuit de commande
 -
+On regarde ce qu'il y a à l'intérieur de la radiocommande de la voiture :
 
 Etape 4 :
 -
