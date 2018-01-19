@@ -27,7 +27,7 @@ On installe [Arduino IDE](https://www.arduino.cc/en/main/software) sur l'ordinat
 
 Ensuite, il faut installer le driver USB pour pouvoir utiliser votre carte Arduino. Dans ce projet, j'utilise la carte [ATmega328P Xplained MINI](https://www.microchip.com/developmenttools/productdetails.aspx?partno=atmega328p-xmini), donc j'ai installé le driver correspondant qu'on peut trouver sur cette [page](http://users.polytech.unice.fr/~pmasson/Enseignement-arduino.htm).
 
-Pour pouvoir travailler avec [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html), on doit installer le driver [USB to UART](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers), comme c'est indiqué sur la face arrière de la carte.
+Pour pouvoir travailler avec [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html), on doit installer le driver [USB to UART](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers), comme c'est indiqué sur la face arrière de la carte :
 
 ![Node Mcu](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Node%20Mcu.JPG)
 
@@ -37,7 +37,7 @@ On regarde ce qu'il y a à l'intérieur de la radiocommande de la voiture :
 
 Etape 4 :
 -
-On connecte la carte Node Mcu 1.0 à l'ordinateur. On lance Arduino IDE. On va dans le menu **File > Preferences**. Dans **Additional Boards Managers URLs**, on ajoute l'url suivante:
+On connecte la carte Node Mcu 1.0 à l'ordinateur. On lance Arduino IDE. On va dans le menu **File > Preferences**. Dans **Additional Boards Managers URLs**, on ajoute l'url suivante :
 
 ![Preferences](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Preferences.png)
 
