@@ -5,11 +5,11 @@ Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Po
 # PeiP2_Arduino_CuriousCar
 Véhicule avec caméra controlé à longue distance (projet en cours de développement)
 
-Liste de matériel :
+Liste de matériel:
 
 - Voiture radiocommandée (x1)
 - Carte Arduino (x1)
-- Carte [NodeMcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html) avec module Wi-Fi ESP-12E (x1)
+- Carte [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html) avec module Wi-Fi ESP-12E (x1)
 - [Caméra IP](https://fr.aliexpress.com/item/Mini-Camera-480P-Wifi-DV-DVR-Wireless-IP-Cam-Brand-New-Mini-Video-Camcorder-Recorder-Infrared/32824095038.html?src=google&albslr=229618241&isdl=y&aff_short_key=UneMJZVf&source=%7Bifdyn:dyn%7D%7Bifpla:pla%7D%7Bifdbm:DBM&albch=DID%7D&src=google&albch=shopping&acnt=494-037-6276&isdl=y&albcp=653151748&albag=36672819047&slnk=&trgt=68416666751&plac=&crea=fr32824095038&netw=g&device=c&mtctp=&gclid=EAIaIQobChMI2YLS2vPR2AIVjJEbCh2CAwuiEAkYFCABEgKM1_D_BwE) (x1)
 - Mini haut-parleur (x1)
 - Mésureurs de distance HC-SR04 (x2)
@@ -19,10 +19,17 @@ Liste de matériel :
 - Résistances 220 Ohm pour les diodes (x8)
 - à compléter.
 
-Etape 1 : installer le soft
+Etape 1: préparer son ordi
 -
+### Installer Arduino IDE #
 On installe [Arduino IDE](https://www.arduino.cc/en/main/software) si ce n'est pas encore fait. Cet environnement va nous permettre de programmer les cartes Arduino et Node Mcu 1.0.
+### Installer les drivers #
+Ensuite, il faut installer le driver USB pour pouvoir utiliser votre carte Arduino. Dans ce projet, j'utilise la carte [ATmega328P Xplained MINI](https://www.microchip.com/developmenttools/productdetails.aspx?partno=atmega328p-xmini), donc j'ai installé le driver correspondant qu'on peut trouver sur cette [page](http://users.polytech.unice.fr/~pmasson/Enseignement-arduino.htm).
 
-Ensuite, il faut installer le driver USB correspondant pour pouvoir utiliser votre carte Arduino. J'utilise la carte [ATmega328P Xplained MINI](https://www.microchip.com/developmenttools/productdetails.aspx?partno=atmega328p-xmini), donc j'ai installé [ce driver](users.polytech.unice.fr/~pmasson/Enseignement/driver-atmel-bundle-7.0.712.exe).
+Pour pouvoir travailler avec [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html), on doit installer le driver [USB to UART](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers), comme c'est indiqué sur la partie arrière de la carte.
+### Installer les paquétages pour le module Wi-Fi #
+On connecte la carte Node Mcu 1.0 à l'ordinateur. On lance Arduino IDE. On va dans le menu *File > Preferences*. Dans *Additional Boards Managers URLs*, on ajoute l'url suivante:
 
-Pour pouvoir travailler avec Node Mcu 1.0, on doit installer le driver de CP2102
+Dans le menu *Tools > Board > Boards Manager*, on va tout en bas, on choisit le paquétage *esp8266* et on l'installe.
+
+Après l'installation on relance Arduino IDE.
