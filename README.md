@@ -29,6 +29,8 @@ Ensuite, il faut installer le driver USB pour pouvoir utiliser votre carte Ardui
 
 Pour pouvoir travailler avec [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html), on doit installer le driver [USB to UART](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers), comme c'est indiqué sur la face arrière de la carte.
 
+![Node Mcu](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Node%20Mcu.JPG)
+
 Etape 3 : circuit de commande
 -
 
