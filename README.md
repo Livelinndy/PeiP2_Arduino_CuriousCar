@@ -36,7 +36,11 @@ Etape 4 :
 -
 On connecte la carte Node Mcu 1.0 à l'ordinateur. On lance Arduino IDE. On va dans le menu **File > Preferences**. Dans **Additional Boards Managers URLs**, on ajoute l'url suivante:
 
+![Preferences](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Preferences.png)
+
 Dans le menu **Tools > Board > Boards Manager**, on va tout en bas, on choisit le paquétage **esp8266** et on l'installe.
+
+![Boards Manager](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Boards%20Manager.png)
 
 Après l'installation on relance Arduino IDE. Et maintenant dans le menu **Tools > Board** on peut trouver notre carte Node Mcu 1.0 pour travailler avec.
 
