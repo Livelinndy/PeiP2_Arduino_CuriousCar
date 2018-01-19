@@ -1,9 +1,9 @@
-Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Polytech'NiceSophia.
-
 ![Polytech](http://www.polytechnice.fr/jahia/jsp/jahia/templates/inc/img/polytech_nice-sophia.png)
 
-# PeiP2 Arduino : Curious Car
-Véhicule avec caméra controlé à longue distance (projet en cours de développement)
+Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Polytech'NiceSophia.
+
+# Projet Arduino : Curious Car (en cours de développement)
+Curious Car est un robot de téléprésence. Basé sur une voiture radiocommandée
 
 Etape 1 : acquisition du matériel
 -
@@ -41,11 +41,13 @@ On connecte la carte Node Mcu 1.0 à l'ordinateur. On lance Arduino IDE. On va d
 
 ![Preferences](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Preferences.png)
 
-Dans le menu "Tools > Board > Boards Manager", on choisit le paquétage **esp8266** et on l'installe.
+Dans le menu "Tools > Board > Boards Manager", on choisit le paquétage "esp8266" et on l'installe.
 
 ![Boards Manager](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Boards%20Manager.png)
 
-Après l'installation on relance Arduino IDE. Et maintenant dans le menu "Tools > Board" on peut trouver notre carte Node Mcu 1.0 pour travailler avec.
+Après l'installation de ce paquétage, on relance Arduino IDE. Et maintenant dans le menu "Tools > Board" on peut trouver notre carte Node Mcu 1.0 pour travailler avec.
+
+Remarque : dans le menu "Tools > Upload Speed", il faut bien vérifier qu'on a "9600", car c'est la vitesse de téléchargement qui correspond à cette carte.
 
 Etape 5 :
 -
