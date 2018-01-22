@@ -3,7 +3,7 @@
 Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Polytech'NiceSophia.
 
 # Projet Arduino : Curious Car (en cours de développement)
-Curious Car est une voiture radiocommandée qu'on peut aussi contrôler par Wi-Fi depuis un ordinateur ou un smartphone. Une caméra web sans fil accrochée à la voiture transmet l'image Curious Car fait un exemple de robot de téléprésence.
+Curious Car est une voiture radiocommandée qu'on peut aussi contrôler par Wi-Fi depuis un ordinateur ou un smartphone. Une caméra web sans fil accrochée sur la voiture permet de voir où va la voiture. Les capteurs de distance devant et derrière permettent à la voiture d'éviter des obstacles. Un mini haut-parleur sur la voiture permet de transmettre des messages audio prédéfinis. On peut aussi allumer et éteindre les lumières de la voiture. Curious Car fait un bel exemple de robot de téléprésence.
 
 Matériel nécessaire :
 
@@ -24,7 +24,7 @@ Matériel nécessaire :
 - Condensateur de 10 μF (x1)
 - Condensateur de 0.1 μF (x1)
 
-Etape 1 : préparer l'environnement informatique
+Etape 1 : environnement informatique
 -
 On installe [Arduino IDE](https://www.arduino.cc/en/main/software) sur l'ordinateur si ce n'est pas encore fait. Cet environnement va nous permettre de programmer les cartes Arduino et Node Mcu 1.0.
 
@@ -32,7 +32,7 @@ Ensuite, il faut installer le driver USB pour pouvoir utiliser votre carte Ardui
 
 Pour pouvoir travailler avec [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html), on doit installer le driver [USB to UART](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers).
 
-Etape 2 : établir la connexion entre l'ordinateur et la carte Wi-Fi + tester avec diodes
+Etape 2 : connexion entre l'ordinateur et la carte Wi-Fi + ajout des diodes
 -
 On connecte la carte Node Mcu 1.0 à l'ordinateur. On lance Arduino IDE. On va dans le menu "File > Preferences". Dans "Additional Boards Managers URLs", on ajoute l'url suivante :
 
@@ -44,17 +44,17 @@ Dans le menu "Tools > Board > Boards Manager", on choisit le paquétage "esp8266
 
 Après l'installation de ce paquétage, on relance Arduino IDE. Et maintenant dans le menu "Tools > Board" on peut trouver notre carte Node Mcu 1.0 pour travailler avec.
 
-Remarque : dans le menu "Tools > Upload Speed", il faut bien vérifier qu'on a "9600", car c'est la vitesse de téléchargement qui correspond à cette carte.
+Remarque : dans le menu "Tools > Upload Speed", il faut bien vérifier qu'on a "9600", car c'est la vitesse de téléchargement qui correspond à cette carte, comme c'est marqué sur sa face arrière :
 
 ![Node Mcu](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Node%20Mcu.JPG)
 
 (à compléter)
 
-Etape 3 : établir la connexion entre la carte Wi-Fi et l'Arduino + tester avec capteurs de distance
+Etape 3 : connexion entre la carte Wi-Fi et l'Arduino + ajout des capteurs de distance
 -
 (à compléter)
 
-Etape 4 : connecter le circuit moteur à l'Arduino + tester
+Etape 4 : connexion du circuit moteur à l'Arduino + test
 -
 A l'intérieur de la voiture, on identifie les I/O qui déclenchent les mouvements de la voiture.
 
@@ -71,23 +71,23 @@ Dans d'autres cas, il faut chercher le datasheet du module de transmission radio
 
 (à compléter)
 
-Etape 5 : connecter le haut-parleur et le module carte SD à l'Arduino + tester
+Etape 5 : connexion du haut-parleur et du module carte SD à l'Arduino + test
 -
 (à compléter)
 
-Etape 6 : optimiser le code
+Etape 6 : optimisation du code
 -
 (à compléter)
 
-Etape 7 : faire le circuit d'alimentation et le connecter à l'Arduino et à la carte Wi-Fi
+Etape 7 : circuit d'alimentation
 -
 (à compléter)
 
-Etape 8 : assembler la voiture
+Etape 8 : assemblage de la voiture
 -
 (à compléter)
 
-Etape 9 : accrocher la caméra à la voiture
+Etape 9 : caméra
 -
 (à compléter)
 
