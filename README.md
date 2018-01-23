@@ -10,7 +10,7 @@ Matériel nécessaire :
 - Voiture radiocommandée (x1)
 - Carte Arduino (x1)
 - Carte [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html) (x1)
-- Cables USB micro (x2)
+- Cable USB micro (x1)
 - [Caméra IP](https://fr.aliexpress.com/item/Mini-Camera-480P-Wifi-DV-DVR-Wireless-IP-Cam-Brand-New-Mini-Video-Camcorder-Recorder-Infrared/32824095038.html?src=google&albslr=229618241&isdl=y&aff_short_key=UneMJZVf&source=%7Bifdyn:dyn%7D%7Bifpla:pla%7D%7Bifdbm:DBM&albch=DID%7D&src=google&albch=shopping&acnt=494-037-6276&isdl=y&albcp=653151748&albag=36672819047&slnk=&trgt=68416666751&plac=&crea=fr32824095038&netw=g&device=c&mtctp=&gclid=EAIaIQobChMI2YLS2vPR2AIVjJEbCh2CAwuiEAkYFCABEgKM1_D_BwE) (x1)
 - [Mini haut-parleur](https://www.ebay.fr/i/282434707508?chn=ps&dispItem=1) (x1)
 - Module carte SD (x1)
@@ -20,9 +20,6 @@ Matériel nécessaire :
 - Diode bleue (x1)
 - Résistances 220 Ohm pour les diodes (x8)
 - Batterie rechargeable 7.2V
-- Régulateur 5V 7805 (x1)
-- Condensateur de 10 μF (x1)
-- Condensateur de 0.1 μF (x1)
 
 Etape 1 : environnement informatique
 -
@@ -36,17 +33,17 @@ Etape 2 : connexion entre l'ordinateur et la carte Wi-Fi + ajout des diodes
 -
 On connecte la carte Node Mcu 1.0 à l'ordinateur. On lance Arduino IDE. On va dans le menu "File > Preferences". Dans "Additional Boards Managers URLs", on ajoute l'url suivante :
 
-![Preferences](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Preferences.png)
+![Preferences](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Preferences.png "Preferences")
 
 Dans le menu "Tools > Board > Boards Manager", on choisit le paquétage "esp8266" et on l'installe.
 
-![Boards Manager](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Boards%20Manager.png)
+![Boards Manager](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Boards%20Manager.png "Boards Manager")
 
 Après l'installation de ce paquétage, on relance Arduino IDE. Et maintenant dans le menu "Tools > Board" on peut trouver notre carte Node Mcu 1.0 pour travailler avec.
 
 Remarque : dans le menu "Tools > Upload Speed", il faut bien vérifier qu'on a "9600", car c'est la vitesse de téléchargement qui correspond à cette carte, comme c'est marqué sur sa face arrière :
 
-<div style="text-align:center"><img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Node%20Mcu.JPG" alt="Node Mcu 1.0"/></div>
+![Node Mcu 1.0](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Node%20Mcu.JPG "Node Mcu 1.0")
 
 (à compléter)
 
