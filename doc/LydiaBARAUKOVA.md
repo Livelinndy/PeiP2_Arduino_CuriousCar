@@ -6,7 +6,7 @@ Durant cette première séance j'ai constitué un magnifique groupe de 1 personn
 
 J'ai décidé de faire comme projet une voiture commandée par Internet depuis un ordinateur. Cette voiture aura une caméra web attachée dont l'image et le son seront tranférés vers l'ordinateur de celui qui contrôle la voiture. J'ajouterai aussi 2 mésureurs de distance pour éviter que la voiture se heurte contre des objets; et quelques diodes pour rendre la voiture plus jolie. Optionnelement on peut ajouter un haut-parleur pour transférer des messages prédéfinis.
 
-J'ai cherché sur Internet les projets similaires, on peut voir un exemple de réalisation sur ce [site](http://www.instructables.com/id/Internet-Controlled-RC-Car/) ou encore dans cette [vidéo](https://www.youtube.com/watch?v=Ck1rouoTh0o).
+J'ai cherché sur Internet les projets similaires, dans cette [vidéo](https://www.youtube.com/watch?v=Ck1rouoTh0o) on peut voir un exemple de réalisation.
 
 Planning approximatif :
 
@@ -33,4 +33,8 @@ Pendant toute la séance je travaillais avec la carte Wi-Fi. J'ai installé tous
 
 Séance du 23 janvier 2018
 -
-Présentation
+Pendant cette séance j'ai fait une [courte présentation](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/doc/Pr%C3%A9sentation%2023.01.2018.pdf) de mon projet et j'ai regardé les présentations des autres groupes.
+
+Séance du 9 février 2018
+-
+Souder des fils
