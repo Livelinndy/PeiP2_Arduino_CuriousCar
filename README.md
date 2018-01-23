@@ -23,6 +23,10 @@ Matériel nécessaire :
 | LED bleue | x1 | <img alt="LED bleue" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20bleue.png" height="150"> |
 | Résistances 220 Ohm | x8 | <img alt="220 Ohm" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/R%C3%A9sistances%20220%20Ohm.png" height="150"> |
 | Batterie rechargeable 7.2 V | x1 | <img alt="Batterie rechargeable 7.2 V" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Batterie%20rechargeable%207,2%20Volts.png" height="150"> |
+| Carte de test | x1 | <img alt="Carte de test" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20de%20test.jpg" height="150"> |
+| Fils Arduino | | <img alt="Fils Arduino" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Fils%20Arduino.png" height="150"> |
+
+Et bien sûr on aura besoin d'un ordi pour programmer les cartes Arduino et Node Mcu.
 
 Etape 1 : environnement informatique
 -
