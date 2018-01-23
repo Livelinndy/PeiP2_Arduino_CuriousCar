@@ -9,20 +9,20 @@ Matériel nécessaire :
 
 | Elément | Quantité | Image |
 |---------|:--------:|-------|
-| Voiture radiocommandée | x1 | ![Voiture radiocommandée](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Voiture%20radiocommand%C3%A9e.png "Voiture radiocommandée" | width=100) |
-| Carte Arduino | x1 | ![ATmega328P-XMINI](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Arduino%20ATmega328P-XMINI.png "ATmega328P-XMINI" | width=100) |
-| Carte Node Mcu 1.0 | x1 | ![Carte Node Mcu 1.0](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Wi-Fi%20Node%20Mcu%201.0.png "Carte Node Mcu 1.0" | width=100) |
-| Cable USB micro | x1 | ![Cable USB micro](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Cable%20USB%20micro.png "Cable USB micro" | width=100) |
-| Caméra IP | x1 | ![Caméra IP](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Cam%C3%A9ra%20IP.png "Caméra IP" | width=100) |
-| Mini haut-parleur | x1 | ![Mini haut-parleur](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Mini%20haut-parleur.png "Mini haut-parleur" | width=100) |
-| Module carte SD | x1 | ![Module carte SD](https://raw.githubusercontent.com/Livelinndy/PeiP2_Arduino_CuriousCar/e55b15b1e6945f2eca95c571b2c98cd1f3761502/images/Module%20carte%20SD.png "Module carte SD" | width=100) |
-| Carte SD | x1 | ![Carte SD](https://raw.githubusercontent.com/Livelinndy/PeiP2_Arduino_CuriousCar/e55b15b1e6945f2eca95c571b2c98cd1f3761502/images/Carte%20SD.png "Carte SD" | width=100) |
-| Capteurs de distance HC-SR04 | x2 | ![HC-SR04](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Capteurs%20de%20distance%20HC-SR04.png "HC-SR04" | width=100) |
-| LED RGB | x2 | ![LED RGB](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20RGB.png "LED RGB" | width=100) |
-| LED rouge | x1 | ![LED rouge](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20rouge.png "LED rouge" | width=100) |
-| LED bleue | x1 | ![LED bleue](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20bleue.png "LED bleue" | width=100) |
-| Résistances 220 Ohm | x8 | ![220 Ohm](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/R%C3%A9sistances%20220%20Ohm.png "220 Ohm" | width=100) |
-| Batterie rechargeable 7.2 V | x1 | ![Batterie rechargeable 7.2 V](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Batterie%20rechargeable%207,2%20Volts.png "Batterie rechargeable 7.2 V" | width=100) |
+| Voiture radiocommandée | x1 | ![Voiture radiocommandée](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Voiture%20radiocommand%C3%A9e.png | width=100) |
+| Carte Arduino | x1 | ![ATmega328P-XMINI](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Arduino%20ATmega328P-XMINI.png | width=100) |
+| Carte Node Mcu 1.0 | x1 | ![Carte Node Mcu 1.0](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Wi-Fi%20Node%20Mcu%201.0.png | width=100) |
+| Cable USB micro | x1 | ![Cable USB micro](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Cable%20USB%20micro.png | width=100) |
+| Caméra IP | x1 | ![Caméra IP](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Cam%C3%A9ra%20IP.png | width=100) |
+| Mini haut-parleur | x1 | ![Mini haut-parleur](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Mini%20haut-parleur.png | width=100) |
+| Module carte SD | x1 | ![Module carte SD](https://raw.githubusercontent.com/Livelinndy/PeiP2_Arduino_CuriousCar/e55b15b1e6945f2eca95c571b2c98cd1f3761502/images/Module%20carte%20SD.png | width=100) |
+| Carte SD | x1 | ![Carte SD](https://raw.githubusercontent.com/Livelinndy/PeiP2_Arduino_CuriousCar/e55b15b1e6945f2eca95c571b2c98cd1f3761502/images/Carte%20SD.png | width=100) |
+| Capteurs de distance HC-SR04 | x2 | ![HC-SR04](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Capteurs%20de%20distance%20HC-SR04.png | width=100) |
+| LED RGB | x2 | ![LED RGB](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20RGB.png | width=100) |
+| LED rouge | x1 | ![LED rouge](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20rouge.png | width=100) |
+| LED bleue | x1 | ![LED bleue](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20bleue.png | width=100) |
+| Résistances 220 Ohm | x8 | ![220 Ohm](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/R%C3%A9sistances%20220%20Ohm.png | width=100) |
+| Batterie rechargeable 7.2 V | x1 | ![Batterie rechargeable 7.2 V](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Batterie%20rechargeable%207,2%20Volts.png | width=100) |
 
 Etape 1 : environnement informatique
 -
