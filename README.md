@@ -9,7 +9,7 @@ Matériel nécessaire :
 
 | Elément | Quantité | Image |
 |---------|:--------:|-------|
-| Voiture radiocommandée | x1 | <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Voiture%20radiocommand%C3%A9e.png" alt="Voiture radiocommandée" height="150" align="center"> |
+| Voiture radiocommandée | x1 | <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Voiture%20radiocommand%C3%A9e.png" alt="Voiture radiocommandée" height="150"> |
 | Carte Arduino | x1 | <img alt="ATmega328P-XMINI" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Arduino%20ATmega328P-XMINI.png" height="150"> |
 | Carte Node Mcu 1.0 | x1 | <img alt="Carte Node Mcu 1.0" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Wi-Fi%20Node%20Mcu%201.0.png" height="150"> |
 | Cable USB micro | x1 | <img alt="Cable USB micro" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Cable%20USB%20micro.png" height="150"> |
