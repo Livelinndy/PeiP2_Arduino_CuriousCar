@@ -35,6 +35,6 @@ Séance du 23 janvier 2018
 -
 Pendant cette séance j'ai fait une [courte présentation](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/doc/Pr%C3%A9sentation%2023.01.2018.pdf) de mon projet et j'ai regardé les présentations des [autres groupes](http://www.sofiahub.unice.fr/arduino-projet-2017-2018/).
 
-Séance du 9 février 2018
+Séance du 7 février 2018
 -
-Souder des fils
+Durant toute la séance j'éssayais de voir comment faire la connexion entre l'Arduino et la carte à l'intérieur de la voiture.
