@@ -37,4 +37,8 @@ Pendant cette séance j'ai fait une [courte présentation](https://github.com/Li
 
 Séance du 7 février 2018
 -
-Durant toute la séance j'éssayais de voir comment faire la connexion entre l'Arduino et la carte à l'intérieur de la voiture.
+J'éssayais de voir comment faire la connexion entre l'Arduino et la carte à l'intérieur de la voiture. Finalement, j'ai décidé d'enlever cette carte et commander les moteurs directement depuis Arduino. Pour le faire, il me faut un microcontrolleur L293D.
+
+Séance du 16 mars 2018
+-
+J'ai réçu le matériel restant : la caméra IP et le haut-parleur. Je m'occupais de branchement des composants à l'intérieur de la voiture et du code.
