@@ -45,13 +45,13 @@ Voici la liste complète du matériel utilisé :
   <tr>
     <td width="300">
       <img alt="HC-SR04" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Capteurs%20de%20distance%20HC-SR04.png" height="100">
-      <br>Capteur de distance HC-SR04 (x2)<br><em>Assure l'évasion des obstacles</em>
+      <br>Capteurs de distance HC-SR04 (x2)<br><em>Assurent l'évasion des obstacles</em>
     </td>
     <td width="300">
       <br>Pilote moteur L293D (x1)<br><em>Assure le mouvement de la voiture</em>
     </td width="300">
     <td>
-      <br>Carte micro SD (x2)<br><em>Stocke les messages audio et les vidéos</em>
+      <br>Cartes micro SD (x2)<br><em>Stockent les messages audio et les vidéos</em>
     </td>
   </tr>
   <tr>
@@ -91,7 +91,7 @@ Voici la liste complète du matériel utilisé :
       <br>Fils<br><em>Pour réaliser le câblage</em>
     </td>
     <td width="300">
-        <br>Adaptateur pour la batterie 9 V
+        <br>Adaptateur pour la batterie 9 V<br><em>Facilite le branchement de la batterie</em>
     </td>
   </tr>
 </table>
