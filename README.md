@@ -138,9 +138,9 @@ J'ai décidé d'enlever la carte qui était à l'intérieur de la voiture car el
 
 (à compléter)
 
-Etape 5 : Evasion d'obstacles
+Etape 5 : Evasion des obstacles
 -
-L'évasion d'obstacles s'éffectue par deux capteurs de distance HC-SR04, devant et derrière. Ils sont branchés sur l'Arduino, et comme les moteurs sont aussi branchés sur l'Arduino il n'est pas difficile de programmer l'arrêt de la voiture quand elle est trop proche d'un obstacle.
+L'évasion des obstacles s'éffectue par deux capteurs de distance HC-SR04, devant et derrière. Ils sont branchés sur l'Arduino, et comme les moteurs sont aussi branchés sur l'Arduino il n'est pas difficile de programmer l'arrêt de la voiture quand elle est trop proche d'un obstacle.
 
 (à compléter)
 
