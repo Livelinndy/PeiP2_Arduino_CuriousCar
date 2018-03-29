@@ -20,22 +20,22 @@ Voici la liste complète du matériel utilisé :
       <br>Voiture radiocommandée (x1)<br><em>Le support</em>
     </td>
     <td width="300">
-      <img alt="ATmega328P-XMINI" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Arduino%20ATmega328P-XMINI.png" height="100">
-      <br>Carte Arduino (x1)<br><em>Gère le fonctionnement du système</em>
-    </td>
-    <td width="300">
-      <img alt="Carte Node Mcu 1.0" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Wi-Fi%20Node%20Mcu%201.0.png" height="100">
-      <br>Carte Node Mcu 1.0 (x1)<br><em>Assure la connexion Wi-Fi</em>
-    </td>
-  </tr>
-  <tr>
-    <td width="300">
       <img alt="Caméra IP" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Cam%C3%A9ra%20IP.png" height="100">
       <br>Caméra IP (x1)<br><em>Transmet la vidéo via Wi-Fi</em>
     </td>
     <td width="300">
       <img alt="Mini haut-parleur" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Mini%20haut-parleur.png" height="100">
       <br>Mini haut-parleur (x1)<br><em>Joue les messages audio</em>
+    </td>
+  </tr>
+  <tr>
+    <td width="300">
+      <img alt="ATmega328P-XMINI" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Arduino%20ATmega328P-XMINI.png" height="100">
+      <br>Carte Arduino (x1)<br><em>Gère le fonctionnement du système</em>
+    </td>
+    <td width="300">
+      <img alt="Carte Node Mcu 1.0" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Wi-Fi%20Node%20Mcu%201.0.png" height="100">
+      <br>Carte Node Mcu 1.0 (x1)<br><em>Assure la connexion Wi-Fi</em>
     </td>
     <td width="300">
       <img alt="Module carte micro SD" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Module%20carte%20SD.png" height="100">
@@ -44,13 +44,13 @@ Voici la liste complète du matériel utilisé :
   </tr>
   <tr>
     <td width="300">
+      <br>Pilote moteur L293D (x1)<br><em>Assure le mouvement de la voiture</em>
+    </td>
+    <td width="300">
       <img alt="HC-SR04" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Capteurs%20de%20distance%20HC-SR04.png" height="100">
       <br>Capteurs de distance HC-SR04 (x2)<br><em>Assurent l'évasion des obstacles</em>
     </td>
     <td width="300">
-      <br>Pilote moteur L293D (x1)<br><em>Assure le mouvement de la voiture</em>
-    </td width="300">
-    <td>
       <br>Cartes micro SD (x2)<br><em>Stockent les messages audio et les vidéos</em>
     </td>
   </tr>
