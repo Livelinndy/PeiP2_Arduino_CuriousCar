@@ -51,3 +51,7 @@ C'était la séance de présentations des projets à leur mi-parcours, j'écouta
 
 Séance du 5 avril 2018
 -
+C'était la deuxième séance de présentations des projets à leur mi-parcours. J'ai [présenté](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/doc/Pr%C3%A9sentation%20mi-parcours%2005.04.2018.pdf) mon projet et écouté les présentations des autres groupes. Durant le temps qui restait après les présentations, je m'occupais du code.
+
+Séance du 9 avril 2018
+-
