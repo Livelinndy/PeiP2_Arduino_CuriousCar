@@ -266,6 +266,8 @@ On va connecter L293D à l'Arduino comme ceci :
 
 J'ai connecté les enable à Vcc pour simplifier le câblage et comme ça on peut controler les moteurs à tout moment.
 
+Les input pour le moteur à droite sont connectés aux sorties PWM de l'Arduino pour que le moteur de derrière, qui est responsable du mouvement en avant ou en arrière, puisse changer de vitesse.
+
 Les fonctions de mouvement téléchargées sur l'Arduino sont :
 
 <pre>
@@ -330,6 +332,8 @@ N.B. Il vaut mieux télécharger les programmes sans que les 2 cartes soient con
 Maintenant on connecte :
 - Le RX de l'Arduino au TX du Node Mcu
 - Le TX de l'Arduino au RX du Node Mcu par un pont diviseur de tension
+
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/VoltageDivider.jpg" alt="Voltage divider" width="200">
 
 Il faut un diviseur de tension car Arduino marche sur une logique de 5 V, Node Mcu marche sur une logique de 3.3 V, et on ne veut pas que Node Mcu reçoit quelque chose plus grand que 3.3 V et donne de la fumée. Même si c'est Node Mcu qui envoie des informations à l'Arduino et non pas l'inverse, j'ai pris cette mesure de précaution.
 
