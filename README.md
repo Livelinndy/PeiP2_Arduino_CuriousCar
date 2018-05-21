@@ -66,8 +66,8 @@ Voici la liste complète du matériel utilisé :
       <br>LED bleue (x1)<br><em>Pour le clignottant</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Resistors220Ohm.png" alt="220 Ohm" height="150">
-      <br>Résistances 220 Ohm (x8)<br><em>Pour les diodes</em>
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/220OhmResistor.png" alt="220 Ohm" height="150">
+      <br>Résistances 220 Ohm (x6)<br><em>Pour les diodes et le pont diviseur de tension</em>
     </td>
     
   </tr>
@@ -224,55 +224,74 @@ Dans loop() :
     digitalWrite(led2,HIGH);
   }
   // la page html envoyée par le serveur est
-  client.println("<!DOCTYPE HTML>");
-  client.println("<html>");
-  client.println("<head>");
-  client.println("<title>Curious Car</title>");
-  client.println("</head>");
-  client.println("<body>");
+  client.println("&lt;!DOCTYPE HTML&gt;");
+  client.println("&lt;html&gt;");
+  client.println("&lt;head&gt;");
+  client.println("&lt;title&gt;Curious Car&lt;/title&gt;");
+  client.println("&lt;/head&gt;");
+  client.println("&lt;body&gt;");
   client.print("The lights are now: ");
   if(lights) client.println("On");
   else client.println("Off");
-  client.print("<a href=\"?cmd=turnOnLights\"><button>Turn on lights</button></a>");
-  client.println("<a href=\"?cmd=turnOffLights\"><button>Turn off lights</button></a>");
-  client.println("</body>");
-  client.println("</html>");
+  client.print("&lt;a href=\"?cmd=turnOnLights\"&gt;&lt;button&gt;Turn on lights&lt;/button>&lt;/a&gt;");
+  client.println("&lt;a href=\"?cmd=turnOffLights\"&gt;&lt;button&gt;Turn off lights&lt;/button&gt;&lt;/a&gt;");
+  client.println("&lt;/body&gt;");
+  client.println("&lt;/html&gt;");
 </code>
 </pre>
 
 On télécharge le programme sur la carte. Et maintenant quand on va sur l'adresse IP de la carte, la page n'est plus vide, il y a une phrase qui indique l'état des phares et 2 boutons qui permettent de changer leur état.
 
-Etape 4 : Mouvement
+(image)
+
+On accroche chaque diode à sa résistace par des soudures, on prolonge les pattes des composants avec des fils en faisant des soudures aussi, on met du scotch isolant dessus, et les phares sont prêtes.
+
+(image)
+
+Etape 5 : Mouvement
 -
-J'ai décidé d'enlever la carte qui était à l'intérieur de la voiture car elle prenait trop de place et je n'allais pas me servir de la connexion radio 27 MHz qu'elle permettait. J'ai décidé de commander les moteurs directement par l'Arduino à l'aide d'un pilote moteur L293D.
+J'ai décidé d'enlever le circuit qui était à l'intérieur de la voiture parce qu'il prenait trop de place et je n'allais pas me servir de la connexion radio 27 MHz qu'il permettait. J'ai décidé de commander les moteurs directement par l'Arduino à l'aide d'un pilote moteur L293D.
+
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293D.png" alt="L293D">
+
+Son schéma est le suivant :
+
+(image)
+
+Un L293D peut piloter 2 moteurs et changer leur sens de rotation avec des ponts en H.
+
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Motors.png" alt="Motors">
 
 (à compléter)
 
-Etape 5 : Evasion d'obstacles
+Etape 6 : Communication entre Node Mcu et Arduino
+-
+
+Etape 7 : Evasion d'obstacles
 -
 L'évasion des obstacles s'éffectue par deux capteurs de distance HC-SR04, devant et derrière. Ils sont branchés sur l'Arduino, et comme les moteurs sont aussi branchés sur l'Arduino il n'est pas difficile de programmer l'arrêt de la voiture quand elle est trop proche d'un obstacle.
 
 (à compléter)
 
-Etape 6 : Caméra
+Etape 8 : Caméra
 -
 La caméra que j'ai choisie n'a pas besoin d'être connectée à l'Arduino ou d'être alimentée avec tout le reste du système. C'est une caméra IP qui a sa propre batterie, elle peut se connecter à un réseau Wi-Fi, et on peut accéder à l'image via son application en étant connecté sur le même réseau Wi-Fi. Pour commencer à travailler avec la caméra il faut seulement la bien [configurer](https://www.youtube.com/watch?v=lPglF5r2YqU&vl=fr). Une fois tout est configuré, on accroche la caméra sur le toit de la voiture.
 
 (photo)
 
-Etape 7 : Haut-parleur (optionnel, s'il y a de la place)
+Etape 9 : Haut-parleur (optionnel, s'il y a de la place)
 -
 Guide complet [ici](https://www.youtube.com/watch?v=gi9mqIha8n0).
 
-Etape 8 : Alimentation
+Etape 10 : Alimentation
 -
 Pour la source d'alimentation du système j'ai choisi un mini powerbank.
 
-Etape 9 : Optimisation
+Etape 11 : Optimisation
 -
 (à compléter)
 
-Etape 10 : PROFIT!!!
+Etape 12 : PROFIT!!!
 -
 Résultat final. Des essais.
 
