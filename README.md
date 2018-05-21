@@ -250,22 +250,90 @@ On accroche chaque diode à sa résistace par des soudures, on prolonge les patt
 
 Etape 5 : Mouvement
 -
-J'ai décidé d'enlever le circuit qui était à l'intérieur de la voiture parce qu'il prenait trop de place et je n'allais pas me servir de la connexion radio 27 MHz qu'il permettait. J'ai décidé de commander les moteurs directement par l'Arduino à l'aide d'un pilote moteur L293D.
+J'ai décidé d'enlever le circuit qui était à l'intérieur de la voiture parce qu'il prenait trop de place et je n'allais pas me servir de la connexion radio 27 MHz qu'il permettait. J'ai décidé de commander les moteurs directement par l'Arduino à l'aide d'un pilote moteur L293D qui transforme les signaux de faible puissance en courants suffisants pour piloter les moteurs.
 
-<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293D.png" alt="L293D">
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293D.png" alt="L293D" width="200">
 
 Son schéma est le suivant :
 
-(image)
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293Dscheme.jpg" alt="L293D" width="200">
 
-Un L293D peut piloter 2 moteurs et changer leur sens de rotation avec des ponts en H.
+Un L293D peut piloter 2 moteurs en même temps et changer leur sens de rotation à l'aide des ponts en H.
 
-<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Motors.png" alt="Motors">
+On va connecter L293D à l'Arduino comme ceci :
 
-(à compléter)
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Motors.png" alt="Motors" width="600">
+
+J'ai connecté les enable à Vcc pour simplifier le câblage et comme ça on peut controler les moteurs à tout moment.
+
+Les fonctions de mouvement téléchargées sur l'Arduino sont :
+
+<pre>
+<code>
+
+</code>
+</pre>
 
 Etape 6 : Communication entre Node Mcu et Arduino
 -
+Comme c'est Node Mcu qui reçoit les commandes du client mais c'est Arduino qui est responsable du mouvement de la voiture, il faut établir la connexion entre les deux. Ils vont se parler à l'aide des ports RX TX.
+
+J'ai décide de laisser les ports RX TX par défaut libres pour les messages internes de chaque carte, et j'ai utilise la bibliothèque SoftwareSerial pour déclarer des ports RX TX en plus sur chaque carte.
+
+Sur Node Mcu :
+
+<pre>
+<code>
+  int command = 0;
+  #include &lt;SoftwareSerial.h&gt;
+  SoftwareSerial mySerial1(13,15); // RX (D7), TX (D8)
+  
+  void setup(){
+    mySerial1.begin(9600);
+  }
+</code>
+</pre>
+
+Dans loop(), à chaque commande on affecte un numéro, la variable command prend ce numéro, et la commande est envoyée avec mySerial.write(command).
+
+Sur Arduino :
+
+<pre>
+<code>
+  int command = 0;
+  #include &lt;SoftwareSerial.h&gt;
+  SoftwareSerial mySerial2(
+  
+  void setup(){
+    mySerial2.begin(9600);
+  }
+  
+  void loop(){
+  if(mySerial2.available()){
+    // on lit le numéro de la commande sur le Serial port
+    command = mySerial2.read() - '0';
+    // on effectue la commande qui correspond au numéro réçu
+    switch(command){
+      // case 1: ...
+      // ...
+      default: return;
+    }
+  }
+}
+</code>
+</pre>
+
+On télécharge les programmes sur les deux cartes.
+
+N.B. Il vaut mieux télécharger les programmes sans que les 2 cartes soient connectées (sinon ça donne un peu de fumée, je ne sais pas pourquoi).
+
+Maintenant on connecte :
+- Le RX de l'Arduino au TX du Node Mcu
+- Le TX de l'Arduino au RX du Node Mcu par un pont diviseur de tension
+
+Il faut un diviseur de tension car Arduino marche sur une logique de 5 V, Node Mcu marche sur une logique de 3.3 V, et on ne veut pas que Node Mcu reçoit quelque chose plus grand que 3.3 V et donne de la fumée. Même si c'est Node Mcu qui envoie des informations à l'Arduino et non pas l'inverse, j'ai pris cette mesure de précaution.
+
+(image)
 
 Etape 7 : Evasion d'obstacles
 -
