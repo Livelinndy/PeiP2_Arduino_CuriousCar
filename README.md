@@ -16,82 +16,85 @@ Voici la liste complète du matériel utilisé :
 <table>
   <tr>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Voiture%20radiocommand%C3%A9e.png" alt="Voiture radiocommandée" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/RCcar.png" alt="RC car" height="100">
       <br>Voiture radiocommandée (x1)<br><em>Le support</em>
     </td>
     <td width="300">
-      <img alt="Caméra IP" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Cam%C3%A9ra%20IP.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/IPcamera.png" alt="IP camera" height="100">
       <br>Caméra IP (x1)<br><em>Transmet la vidéo via Wi-Fi</em>
     </td>
     <td width="300">
-      <img alt="Mini haut-parleur" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Mini%20haut-parleur.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Speaker.png" alt="Mini speaker"  height="100">
       <br>Mini haut-parleur (x1)<br><em>Joue les messages audio</em>
     </td>
   </tr>
   <tr>
     <td width="300">
-      <img alt="ATmega328P-XMINI" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Arduino%20ATmega328P-XMINI.png" height="100">
-      <br>Carte Arduino (x1)<br><em>Gère le fonctionnement du système</em>
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/ArduinoATmega328P-XMINI.png" alt="ATmega328P-XMINI" height="100">
+      <br>Carte Arduino (x1)<br><em>Gère le mouvement de la voiture</em>
     </td>
     <td width="300">
-      <img alt="Carte Node Mcu 1.0" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20Wi-Fi%20Node%20Mcu%201.0.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/NodeMcu1.0.png" alt="Node Mcu 1.0" height="100">
       <br>Carte Node Mcu 1.0 (x1)<br><em>Assure la connexion Wi-Fi</em>
     </td>
     <td width="300">
-      <img alt="Module carte micro SD" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Module%20carte%20SD.png" height="100">
-      <br>Module carte micro SD (x1)<br><em>Ressort les messages audio du mémoire</em>
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/MicroSDmodule.png" alt="Micro SD module" height="100">
+      <br>Module carte micro SD (x1)<br><em>Ressort les messages audio de la mémoire</em>
     </td>
   </tr>
   <tr>
     <td width="300">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293D.png" alt="L293D" height="100">
       <br>Pilote moteur L293D (x1)<br><em>Assure le mouvement de la voiture</em>
     </td>
     <td width="300">
-      <img alt="HC-SR04" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Capteurs%20de%20distance%20HC-SR04.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/HC-SR04.png" alt="HC-SR04" height="100">
       <br>Capteurs de distance HC-SR04 (x2)<br><em>Assurent l'évasion des obstacles</em>
     </td>
     <td width="300">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/MicroSD.png" alt="Micro SD" height="100">
       <br>Cartes micro SD (x2)<br><em>Stockent les messages audio et les vidéos</em>
     </td>
   </tr>
   <tr>
     <td width="300">
-      <img alt="LED rouge" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20rouge.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/RedLED.png" alt="Red LED" height="100">
       <br>LED rouge (x1)<br><em>Pour le clignottant</em>
     </td>
     <td width="300">
-      <img alt="LED bleue" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20bleue.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/BlueLED.png" alt="Blue LED" height="100">
       <br>LED bleue (x1)<br><em>Pour le clignottant</em>
     </td>
     <td width="300">
-      <img alt="LED RGB" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/LED%20RGB.png" height="100">
-      <br>LED RGB (x2)<br><em>Pour les lumières de devant</em>
+      <img alt="White LED" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/WhiteLED.png" height="100">
+      <br>LED blanches (x2)<br><em>Pour les lumières de devant</em>
     </td>
   </tr>
   <tr>
     <td width="300">
-      <img alt="220 Ohm" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/R%C3%A9sistances%20220%20Ohm.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Resistors220Ohm.png" alt="220 Ohm" height="100">
       <br>Résistances 220 Ohm (x8)<br><em>Pour les diodes</em>
     </td>
     <td width="300">
-      <img alt="Carte de test" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Carte%20de%20test.jpg" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Breadboard.jpg" alt="Breadboard" height="100">
       <br>Carte de test 400 pts (x1)<br><em>Pour ne pas souder la carte Wi-Fi</em>
     </td>
     <td width="300">
-      <br>Batterie rechargeable 9 V (x1)<br><em>Pour alimenter le système</em>
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Powerbank.jpg" alt="Powerbank" height="100">
+      <br>Mini powerbank 2200 mAh (x1)<br><em>Pour alimenter le système</em>
     </td>
   </tr>
   <tr>
     <td width="300">
-      <img alt="Cable USB micro" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Cable%20USB%20micro.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/USBmicro.png" alt="USB micro" height="100">
       <br>Cable USB micro (x1)<br><em>Pour télécharger les programmes sur l'Arduino et la carte Wi-Fi</em>
     </td>
     <td width="300">
-      <img alt="Fils Arduino" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Fils%20Arduino.png" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Wires.png" alt="Wires" height="100">
       <br>Fils<br><em>Pour réaliser le câblage</em>
     </td>
     <td width="300">
-        <br>Adaptateur pour la batterie 9 V<br><em>Facilite le branchement de la batterie</em>
+        <br><br><em></em>
     </td>
   </tr>
 </table>
