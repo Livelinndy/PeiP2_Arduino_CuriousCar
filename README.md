@@ -66,21 +66,22 @@ Voici la liste complète du matériel utilisé :
       <br>LED bleue (x1)<br><em>Pour le clignottant</em>
     </td>
     <td width="300">
-      <img alt="White LED" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/WhiteLED.png" height="100">
-      <br>LED blanches (x2)<br><em>Pour les lumières de devant</em>
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Resistors220Ohm.png" alt="220 Ohm" height="100">
+      <br>Résistances 220 Ohm (x8)<br><em>Pour les diodes</em>
     </td>
+    
   </tr>
   <tr>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Resistors220Ohm.png" alt="220 Ohm" height="100">
-      <br>Résistances 220 Ohm (x8)<br><em>Pour les diodes</em>
+      <img alt="White LED" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/WhiteLED.png" height="100">
+      <br>LED blanches (x2)<br><em>Pour les lumières de devant</em>
     </td>
     <td width="300">
       <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Breadboard.jpg" alt="Breadboard" height="100">
       <br>Carte de test 400 pts (x1)<br><em>Pour ne pas souder la carte Wi-Fi</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Powerbank.jpg" alt="Powerbank" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Powerbank.png" alt="Powerbank" height="100">
       <br>Mini powerbank 2200 mAh (x1)<br><em>Pour alimenter le système</em>
     </td>
   </tr>
@@ -94,12 +95,11 @@ Voici la liste complète du matériel utilisé :
       <br>Fils<br><em>Pour réaliser le câblage</em>
     </td>
     <td width="300">
-        <br><br><em></em>
+        <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Computer.png" alt="Computer" height="100">
+        <br>Un ordi<br><em>Pour programmer les cartes Arduino et Node Mcu</em>
     </td>
   </tr>
 </table>
-
-Et bien sûr on aura besoin d'un ordi pour programmer les cartes Arduino et Node Mcu.
 
 Etape 2 : Environnement informatique
 -
@@ -117,13 +117,13 @@ On connecte la carte Node Mcu 1.0 à l'ordinateur. On lance Arduino IDE. On va d
 
 Dans le menu "Tools > Board > Boards Manager", on choisit le paquétage "esp8266" et on l'installe.
 
-<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Boards%20Manager.png" alt="Boards Manager" width="600">
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/BoardsManager.png" alt="Boards Manager" width="600">
 
 Après l'installation de ce paquétage, on relance Arduino IDE. Et finalement dans le menu "Tools > Board" on peut trouver notre carte Node Mcu 1.0 pour travailler avec.
 
 Remarque : avant de télécharger un programme sur Node Mcu 1.0, il faut bien vérifier que dans le menu "Tools > Upload Speed" on a "9600", car c'est la vitesse de téléchargement qui correspond à cette carte, comme c'est marqué sur sa face arrière :
 
-<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Node%20Mcu%20face%20arri%C3%A8re.JPG" alt="Node Mcu face arrière">
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/NodeMcuBackSide.JPG" alt="Node Mcu back side">
 
 Une fois l'environnement informatique est préparé, on peut passer aux étapes suivantes où on va réaliser le montage et la programmation du système.
 
@@ -131,7 +131,7 @@ Par la suite, on va réaliser séparement chaqune des fonctionnalités prévues,
 
 Etape 3 : Lumières
 -
-On commence par le plus facile : les lumières. Cette étape va aussi nous permettre de tester le fonctionnement de la carte Node Mcu 1.0.
+On commence par le plus facile : les phares. Cette étape va aussi nous permettre de tester le fonctionnement de la carte Node Mcu 1.0.
 
 (à compléter)
 
@@ -149,7 +149,7 @@ L'évasion des obstacles s'éffectue par deux capteurs de distance HC-SR04, deva
 
 Etape 6 : Caméra
 -
-La caméra que j'ai choisie n'a pas besoin d'être connectée à l'Arduino ou d'être alimentée avec tout le reste du système, donc il faut seulement la [configurer](https://www.youtube.com/watch?v=lPglF5r2YqU&vl=fr) et accrocher sur le toit de la voiture.
+La caméra que j'ai choisie n'a pas besoin d'être connectée à l'Arduino ou d'être alimentée avec tout le reste du système. C'est une caméra IP qui a sa propre batterie, elle peut se connecter à un réseau Wi-Fi, et on peut accéder à l'image via son application en étant connecté sur le même réseau Wi-Fi. Pour commencer à travailler avec la caméra il faut seulement la bien [configurer](https://www.youtube.com/watch?v=lPglF5r2YqU&vl=fr). Une fois tout est configuré, on accroche la caméra sur le toit de la voiture.
 
 (photo)
 
@@ -159,7 +159,7 @@ Etape 7 : Haut-parleur (optionnel, s'il y a de la place)
 
 Etape 8 : Alimentation
 -
-(à compléter)
+Pour la source d'alimentation du système j'ai choisi un mini powerbank.
 
 Etape 9 : Optimisation
 -
