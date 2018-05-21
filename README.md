@@ -16,87 +16,87 @@ Voici la liste complète du matériel utilisé :
 <table>
   <tr>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/RCcar.png" alt="RC car" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/RCcar.png" alt="RC car" height="150">
       <br>Voiture radiocommandée (x1)<br><em>Le support</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/IPcamera.png" alt="IP camera" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/IPcamera.png" alt="IP camera" height="150">
       <br>Caméra IP (x1)<br><em>Transmet la vidéo via Wi-Fi</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Speaker.png" alt="Mini speaker"  height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Speaker.png" alt="Mini speaker"  height="150">
       <br>Mini haut-parleur (x1)<br><em>Joue les messages audio</em>
     </td>
   </tr>
   <tr>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/ArduinoATmega328P-XMINI.png" alt="ATmega328P-XMINI" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/ArduinoATmega328P-XMINI.png" alt="ATmega328P-XMINI" height="150">
       <br>Carte Arduino (x1)<br><em>Gère le mouvement de la voiture</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/NodeMcu1.0.png" alt="Node Mcu 1.0" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/NodeMcu1.0.png" alt="Node Mcu 1.0" height="150">
       <br>Carte Node Mcu 1.0 (x1)<br><em>Assure la connexion Wi-Fi</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/MicroSDmodule.png" alt="Micro SD module" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/MicroSDmodule.png" alt="Micro SD module" height="150">
       <br>Module carte micro SD (x1)<br><em>Ressort les messages audio de la mémoire</em>
     </td>
   </tr>
   <tr>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293D.png" alt="L293D" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293D.png" alt="L293D" height="150">
       <br>Pilote moteur L293D (x1)<br><em>Assure le mouvement de la voiture</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/HC-SR04.png" alt="HC-SR04" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/HC-SR04.png" alt="HC-SR04" height="150">
       <br>Capteurs de distance HC-SR04 (x2)<br><em>Assurent l'évasion des obstacles</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/MicroSD.png" alt="Micro SD" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/MicroSD.png" alt="Micro SD" height="150">
       <br>Cartes micro SD (x2)<br><em>Stockent les messages audio et les vidéos</em>
     </td>
   </tr>
   <tr>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/RedLED.png" alt="Red LED" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/RedLED.png" alt="Red LED" height="150">
       <br>LED rouge (x1)<br><em>Pour le clignottant</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/BlueLED.png" alt="Blue LED" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/BlueLED.png" alt="Blue LED" height="150">
       <br>LED bleue (x1)<br><em>Pour le clignottant</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Resistors220Ohm.png" alt="220 Ohm" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Resistors220Ohm.png" alt="220 Ohm" height="150">
       <br>Résistances 220 Ohm (x8)<br><em>Pour les diodes</em>
     </td>
     
   </tr>
   <tr>
     <td width="300">
-      <img alt="White LED" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/WhiteLED.png" height="100">
+      <img alt="White LED" src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/WhiteLED.png" height="150">
       <br>LED blanches (x2)<br><em>Pour les lumières de devant</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Breadboard.jpg" alt="Breadboard" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Breadboard.jpg" alt="Breadboard" height="150">
       <br>Carte de test 400 pts (x1)<br><em>Pour ne pas souder la carte Wi-Fi</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Powerbank.png" alt="Powerbank" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Powerbank.png" alt="Powerbank" height="150">
       <br>Mini powerbank 2200 mAh (x1)<br><em>Pour alimenter le système</em>
     </td>
   </tr>
   <tr>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/USBmicro.png" alt="USB micro" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/USBmicro.png" alt="USB micro" height="150">
       <br>Cable USB micro (x1)<br><em>Pour télécharger les programmes sur l'Arduino et la carte Wi-Fi</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Wires.png" alt="Wires" height="100">
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Wires.png" alt="Wires" height="150">
       <br>Fils<br><em>Pour réaliser le câblage</em>
     </td>
     <td width="300">
-        <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Computer.png" alt="Computer" height="100">
-        <br>Un ordi<br><em>Pour programmer les cartes Arduino et Node Mcu</em>
+        <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Computer.png" alt="Computer" height="150">
+        <br>Un ordinateur<br><em>Pour programmer les cartes Arduino et Node Mcu</em>
     </td>
   </tr>
 </table>
@@ -129,9 +129,63 @@ Une fois l'environnement informatique est préparé, on peut passer aux étapes 
 
 Par la suite, on va réaliser séparement chaqune des fonctionnalités prévues, et à la fin on va les mettre ensemble.
 
-Etape 3 : Lumières
+Etape 3 : Serveur Wi-Fi
+-
+On souhaite utiliser la carte Node Mcu en mode serveur pour qu'on ait une page web interactive qui nous permetterait d'envoyer les commandes à la voiture. Le code de base pour créer un serveur avec Node Mcu 1.0 est le suivant :
+
+<pre>
+<code>
+  #include <ESP8266WiFi.h>
+  const char* ssid = "your wifi name";
+  const char* password = "your password";
+  // le serveur va être créé sur le port 80
+  WiFiServer server(80);
+  // on déclare toutes les autres variables globales
+  // ...
+  
+  void setup(){
+    // on déclare les pins dont on a besoin
+    // ...
+    // on connecte la carte au Wi-Fi
+    WiFi.begin(ssid,password);
+    // et on lance le serveur
+    server.begin();
+  }
+  
+  void loop(){
+    // si un client s'est connecté au serveur
+    WiFiClient client = server.available();
+    if(!client) return;
+    while(!client.available()) delay(1);
+    // on récupère sa requête
+    String request = client.readStringUntil('\r');
+    client.flush();
+    // on analyse la requête du client
+    // ...
+    // on met à jour le système en fonction de cet analyse
+    // ...
+    // et on retourne la réponse du serveur
+    // d'abord l'en-tête
+    client.println("HTTP/1.1 200 OK");
+    client.println("Content-Type: text/html");
+    client.println("");
+    // et puis la page html
+    // ...
+  }
+</code>
+</pre>
+
+Après avoir téléchargé ce code sur la carte Node Mcu, je vois que la carte s'est bien connectée à ma box Wi-Fi. Maintenant on va dans le navigateur Internet d'un ordinateur (ou smartphone) qui est aussi connecté à ce réseau. On tape l'adresse IP de la carte (qu'on trouve dans les appareils connectés à la box) dans la barre de navigation, et une page vide s'affiche. C'est normal puisqu'on n'a rien mis après l'en-tête dans la réponse du serveur.
+
+Etape 4 : Phares
 -
 On commence par le plus facile : les phares. Cette étape va aussi nous permettre de tester le fonctionnement de la carte Node Mcu 1.0.
+
+J'ai branché 2 diodes blanches avec 2 résistances de 220 Ohm comme ceci :
+
+(image)
+
+Maintenant il faut écrire le programme. Avant tout, il faut que la carte Node Mcu se connecte au Wi-Fi
 
 (à compléter)
 
@@ -155,7 +209,7 @@ La caméra que j'ai choisie n'a pas besoin d'être connectée à l'Arduino ou d'
 
 Etape 7 : Haut-parleur (optionnel, s'il y a de la place)
 -
-(à compléter)
+Guide complet [ici](https://www.youtube.com/watch?v=gi9mqIha8n0).
 
 Etape 8 : Alimentation
 -
