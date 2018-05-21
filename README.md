@@ -135,7 +135,7 @@ On souhaite utiliser la carte Node Mcu en mode serveur pour qu'on ait une page w
 
 <pre>
 <code>
-  #include <ESP8266WiFi.h>
+  #include &lt;ESP8266WiFi.h&gt;
   const char* ssid = "your wifi name";
   const char* password = "your password";
   // le serveur va être créé sur le port 80
@@ -144,7 +144,7 @@ On souhaite utiliser la carte Node Mcu en mode serveur pour qu'on ait une page w
   // ...
   
   void setup(){
-    // on déclare les pins dont on a besoin
+    // on initialise les pins dont on a besoin
     // ...
     // on connecte la carte au Wi-Fi
     WiFi.begin(ssid,password);
@@ -160,9 +160,9 @@ On souhaite utiliser la carte Node Mcu en mode serveur pour qu'on ait une page w
     // on récupère sa requête
     String request = client.readStringUntil('\r');
     client.flush();
-    // on analyse la requête du client
+    // on analyse la requête du client et trouve la commande envoyée
     // ...
-    // on met à jour le système en fonction de cet analyse
+    // on met à jour le système en fonction de cette commande
     // ...
     // et on retourne la réponse du serveur
     // d'abord l'en-tête
@@ -179,15 +179,68 @@ Après avoir téléchargé ce code sur la carte Node Mcu, je vois que la carte s
 
 Etape 4 : Phares
 -
-On commence par le plus facile : les phares. Cette étape va aussi nous permettre de tester le fonctionnement de la carte Node Mcu 1.0.
+Dans cette étape, on va ajouter les phares (2 LED blanches) à notre voiture. Les LED vont être connectés directement à la carte Node Mcu 1.0 comme dans cette [vidéo](https://www.youtube.com/watch?v=ZPUg4Uw3A0E).
 
-J'ai branché 2 diodes blanches avec 2 résistances de 220 Ohm comme ceci :
+Sur la carte de test, on branche 2 LED blanches et 2 résistances de 220 Ohm comme ceci :
 
-(image)
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Lights.png" alt="Lights">
 
-Maintenant il faut écrire le programme. Avant tout, il faut que la carte Node Mcu se connecte au Wi-Fi
+Maintenant il faut écrire le programme. Il ne nous reste qu'à ajouter quelques détails au programme de l'étape précedent.
 
-(à compléter)
+Au début :
+<pre>
+<code>
+  // on déclare les variables globales
+  const int led1 = 5; // D1
+  const int led2 = 4; // D2
+  boolean lights = false; // indique si les phares sont allumées
+</code>
+</pre>
+
+Dans setup() :
+<pre>
+<code>
+  // on initialise les pins dont on a besoin
+  pinMode(led1,OUTPUT);
+  pinMode(led2,OUTPUT);
+  // et on éteint les phares au début
+  digitalWrite(led1,HIGH);
+  digitalWrite(led2,HIGH);
+</code>
+</pre>
+
+Dans loop() :
+<pre>
+<code>
+  // on analyse la requête du client et trouve la commande envoyée
+  if(request.indexOf("cmd=turnOnLights") != -1) lights = true;
+  else if(request.indexOf("cmd=turnOffLights") != -1) lights = false;
+  // on met à jour le système en fonction de cette commande
+  if(lights){
+    digitalWrite(led1,LOW);
+    digitalWrite(led2,LOW);
+  }else{
+    digitalWrite(led1,HIGH);
+    digitalWrite(led2,HIGH);
+  }
+  // la page html envoyée par le serveur est
+  client.println("<!DOCTYPE HTML>");
+  client.println("<html>");
+  client.println("<head>");
+  client.println("<title>Curious Car</title>");
+  client.println("</head>");
+  client.println("<body>");
+  client.print("The lights are now: ");
+  if(lights) client.println("On");
+  else client.println("Off");
+  client.print("<a href=\"?cmd=turnOnLights\"><button>Turn on lights</button></a>");
+  client.println("<a href=\"?cmd=turnOffLights\"><button>Turn off lights</button></a>");
+  client.println("</body>");
+  client.println("</html>");
+</code>
+</pre>
+
+On télécharge le programme sur la carte. Et maintenant quand on va sur l'adresse IP de la carte, la page n'est plus vide, il y a une phrase qui indique l'état des phares et 2 boutons qui permettent de changer leur état.
 
 Etape 4 : Mouvement
 -
