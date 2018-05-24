@@ -66,7 +66,7 @@ Voici la liste complète du matériel utilisé :
     </td>
     <td width="300">
       <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/220OhmResistor.png" alt="220 Ohm" height="150">
-      <br>Résistances 220 Ohm (x4)<br><em>Pour les diodes et le pont diviseur de tension</em>
+      <br>Résistances 220 Ohm (x4)<br><em>Pour les diodes et pour le pont diviseur de tension</em>
     </td>
   </tr>
   <tr>
@@ -89,9 +89,9 @@ Et, bien sûr, un ordinateur pour programmer les cartes Arduino et Node Mcu.
 
 Fonctionnement général
 -
-Une carte Node Mcu (carte Wi-Fi programmable) se connecte à un réseau Wi-Fi prédéfini dans le code. Elle crée un serveur sur le port 80 (port standard pour le protocole HTTP). Et quand un client va à son adresse IP, elle lui renvoie une page web interactive. Sur cette page il y a des boutons avec toutes les commandes possibles. En appuyant sur un bouton, la page se renouvelle avec une nouvelle requête GET dont le paramètre correspond à la commande écrite sur le bouton. Cette requête est analysée par la carte Wi-Fi, et une action est réalisée en fonction de la commande reçue.
+La carte Node Mcu (carte Wi-Fi programmable) se connecte à un réseau Wi-Fi prédéfini dans le code. Elle crée un serveur sur le port 80 (port standard pour le protocole HTTP). Et quand un client va à son adresse IP, elle lui renvoie une page web interactive. Sur cette page il y a des boutons avec toutes les commandes possibles. En appuyant sur un bouton, la page se renouvelle avec une nouvelle requête GET dont le paramètre correspond à la commande écrite sur le bouton. Cette requête est analysée par la carte Wi-Fi, et une action est réalisée en fonction de la commande reçue.
 
-La carte Wi-Fi s’occupe de l’allumage des phares, mais le reste des actions possibles est la responsabilité d’une carte Arduino. Pour transmettre les commandes de la carte Wi-Fi à l’Arduino, on utilise la communication RX TX entre les deux.
+La carte Wi-Fi s’occupe de l’allumage des phares, mais le reste des actions possibles est la responsabilité de la carte Arduino. Pour transmettre les commandes de la carte Wi-Fi à l’Arduino, on utilise la communication RX TX entre les deux.
 
 La carte Arduino contrôle les moteurs de la voiture et permet son déplacement. De plus, elle contrôle le module adaptateur carte micro SD (qui lit la carte micro SD avec les messages audio) et le haut-parleur.
 
