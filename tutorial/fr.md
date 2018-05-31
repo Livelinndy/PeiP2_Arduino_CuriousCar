@@ -87,11 +87,9 @@ Après l'installation de ce paquétage, on relance Arduino IDE. Et finalement da
 
 Une fois l'environnement informatique est préparé, on peut passer aux étapes suivantes où on va réaliser le montage et programmer le système.
 
-Par la suite, on va réaliser séparement chaqune des fonctionnalités prévues, et à la fin on va les mettre ensemble.
-
-Etape 3 : Phares et serveur Wi-Fi
+Etape 3 : Phares
 -
-On va commencer par le plus facile : les phares. Et on va en même temps créer un serveur avec la carte Wi-Fi.
+On va commencer par le plus facile : les phares.
 
 Pour les phares on a besoin de 2 LED blanches et de 2 résistances de 220 Ohm. Le schéma de branchement est le suivant :
 
@@ -100,16 +98,6 @@ Pour les phares on a besoin de 2 LED blanches et de 2 résistances de 220 Ohm. L
 Quand le pin D1 est en mode LOW, les phares sont allumées. Sinon, elles sont éteintes.
 
 Pour assembler les phares, j'ai soudé chaque diode avec sa résistance et encore prolongé les pattes des composants avec des fils pour que les phares puissent atteindre leur place devant sur la voiture.
-
-L'exemple du code pour cette partie est disponible [ici](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/examples/WiFiAndLights.ino).
-
-Pour se connecter au serveur créé par la carte Wi-Fi, il faut lire son adresse IP sur l'appareil auquel la carte s'est connectée. Ensuite, il faut connecter son ordinateur ou smartphone au même réseau Wi-Fi. Et finalement, il faut taper l'adresse IP récupéré précédemment dans la barre d'adresse du navigateur Internet.
-
-En se connectant sur le serveur, on voit la page suivante :
-
-<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Server1.png" alt="Page du serveur">
-
-En appuyant sur le bouton ou en appuyant la touche "L" sur le clavier on peut changer l'état des phares !
 
 Etape 4 : Mouvement
 -
@@ -129,15 +117,32 @@ J'ai connecté les enable à 5V pour simplifier le câblage car la table de vér
 
 <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293Dlogic.png" alt="La logique du L293D">
 
-Et aussi j'ai alimenté les moteurs séparement du système par 4 batteries de 1,5V pour ne pas surcharger le système.
+Et j’ai utilisé 4 piles de 1,5V pour alimenter les moteurs séparémént du système pour ne pas le surcharger. Sinon, si on alimentait les moteurs par la carte Node Mcu, on ne pouvait pas tourner les 2 moteurs en même temps car il n’y avait pas assez de puissance.
 
 Etape 5 : Caméra
 -
-Il faut seulement configurer la caméra pour qu’elle se connecte à notre réseau Wi-Fi et la mettre sur le toit de la voiture. La configuration se fait dans l’application fournie avec la caméra.
+Pour rajouter la caméra, il a fallu seulement la configurer pour qu’elle se connecte à notre Wi-Fi et la mettre sur le toit de la voiture. La configuration se fait dans l’application fournie avec la caméra.
 
 Etape 6 : Alimentation
 -
-J’ai alimenté la carte Node Mcu avec un mini powerbank de charge 2200mAh via un petit cable micro USB. La carte Arduino est alimentée par la carte Node Mcu. J’ai connecté le Vin de la carte Node Mcu (qui donne 5V) au Vcc de la carte Arduino et le GND du Node Mcu au GND de l’Arduino.
+J’ai alimenté la carte Node Mcu avec un mini powerbank de charge 2200mAh via un petit cable micro USB. Une source d’alimentation comme ça est beaucoup plus durable qu’une pile de 9V, par exemple.
 
 Etape 7 : Assemblage final et des tests
 -
+On télécharge le [code](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/code/CuriousCar.ino) sur la carte Node Mcu.
+
+On fait tous les branchements décrits précédemment.
+
+Et c'est prêt !
+
+Pour se connecter au serveur créé par la carte Wi-Fi, il faut lire son adresse IP sur l'appareil auquel la carte s'est connectée. Ensuite, il faut connecter son ordinateur ou smartphone au même réseau Wi-Fi. Et finalement, il faut taper l'adresse IP récupéré précédemment dans la barre d'adresse du navigateur Internet.
+
+En se connectant sur le serveur, on voit la page suivante :
+
+(image)
+
+En appuyant sur un bouton ou en appuyant la touche qui correspond au nom du bouton on peut effectuer l'action écrité à côté du bouton.
+
+En ce qui concerne la caméra, on peut voir l'image dans son application.
+
+(vidéo)
