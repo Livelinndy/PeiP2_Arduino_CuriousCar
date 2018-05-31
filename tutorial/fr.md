@@ -123,11 +123,11 @@ Pour piloter les 2 moteurs DC, qu’il y avait dans la voiture, j’ai utilisé 
 
 Voici le schéma des branchements :
 
-<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/schematics/Motors.jpg" alt="Schéma de branchement des moteurs">
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/schematics/Motors.png" alt="Schéma de branchement des moteurs">
 
 J'ai connecté les enable à 5V pour simplifier le câblage car la table de vérité du microcircuit est la suivante :
 
-<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L239Dlogic.png" alt="La logique du L239D">
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293Dlogic.png" alt="La logique du L293D">
 
 Et aussi j'ai alimenté les moteurs séparement du système par 4 batteries de 1,5V pour ne pas surcharger le système.
 
