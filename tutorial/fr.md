@@ -21,8 +21,8 @@ Voici la liste complète du matériel utilisé :
   </tr>
   <tr>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Powerbank.png" alt="Powerbank" height="150">
-      <br>Mini powerbank 2200 mAh (x1)<br><em>Pour alimenter le système</em>
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/USBmicro.png" alt="USB micro" height="150">
+      <br>Cable USB micro (x1)<br><em>Pour télécharger les programmes sur l'Arduino et la carte Wi-Fi</em>
     </td>
     <td width="300">
       <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293D.png" alt="L293D" height="150">
@@ -53,8 +53,8 @@ Voici la liste complète du matériel utilisé :
       <br>Batterie 1,5V (x4)<br><em>Pour alimenter les moteurs séparement du système</em>
     </td>
     <td width="300">
-      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/USBmicro.png" alt="USB micro" height="150">
-      <br>Cable USB micro (x1)<br><em>Pour télécharger les programmes sur l'Arduino et la carte Wi-Fi</em>
+      <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Powerbank.png" alt="Powerbank" height="150">
+      <br>Mini powerbank 2200 mAh (x1)<br><em>Pour alimenter le système</em>
     </td>
     <td width="300">
       <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Wires.png" alt="Wires" height="150">
@@ -113,12 +113,23 @@ En appuyant sur le bouton ou en appuyant la touche "L" sur le clavier on peut ch
 
 Etape 4 : Mouvement
 -
-Ensuite, j’ai réalisé le contrôle du mouvement par l’Arduino.
-J’ai commencé par enlever le circuit qui était déjà à l’intérieur de la voiture car je n’allais pas utiliser la communication radio à 27MHz qu’il permettait et j’avais besoin de la place pour l’Arduino et les autres composants.
-Pour piloter les 2 moteurs DC, qu’il y avait dans la voiture, j’ai utilisé un microcircuit pilote moteur L293D. Les signaux en sortie des I/O de l’Arduino sont de faible puissance, et L293D les transforme en courants suffisants pour piloter les moteurs. L293D permet de piloter 2 moteurs en même temps. De plus, il permet de changer leur sens de rotation à l’aide des ponts en H.
+Ensuite, on va réaliser le contrôle du mouvement par la carte Wi-Fi.
+
+J’ai commencé par enlever le circuit qui était déjà à l’intérieur de la voiture car je n’allais pas utiliser la communication radio à 27MHz qu’il permettait et j’avais besoin de la place à l'intérieur de la voiture.
+
+Pour piloter les 2 moteurs DC, qu’il y avait dans la voiture, j’ai utilisé un microcircuit pilote moteur L293D. Les signaux en sortie des I/O du Node Mcu sont de faible puissance, et L293D les transforme en courants suffisants pour piloter les moteurs. L293D permet de piloter 2 moteurs en même temps. De plus, il permet de changer leur sens de rotation à l’aide des ponts en H.
+
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/schematics/L293D.jpg" alt="L293D">
+
 Voici le schéma des branchements :
 
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/schematics/Motors.jpg" alt="Schéma de branchement des moteurs">
+
 J'ai connecté les enable à 5V pour simplifier le câblage car la table de vérité du microcircuit est la suivante :
+
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L239Dlogic.png" alt="La logique du L239D">
+
+Et aussi j'ai alimenté les moteurs séparement du système par 4 batteries de 1,5V pour ne pas surcharger le système.
 
 Etape 5 : Caméra
 -
