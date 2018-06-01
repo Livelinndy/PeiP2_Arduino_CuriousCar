@@ -154,5 +154,3 @@ En se connectant sur le serveur, on voit la page suivante :
 En appuyant sur un bouton ou en appuyant la touche qui correspond au nom du bouton on peut effectuer l'action écrité à côté du bouton.
 
 En ce qui concerne la caméra, on peut voir l'image dans son application.
-
-(vidéo)
