@@ -16,6 +16,7 @@ const int forward = 14; // D5
 const int backward = 12; // D6
 
 void setup(){
+  Serial.begin(115200);
   // initialisation des pins
   pinMode(led,OUTPUT);
   pinMode(left,OUTPUT);
@@ -28,6 +29,12 @@ void setup(){
   stopCar();
   // on connecte la carte Wi-Fi au Wi-Fi prédéfini
   WiFi.begin(ssid,password);
+  // on attend que la connexion se fait
+  while(WiFi.status() != WL_CONNECTED) delay(500);
+  Serial.println("WiFi connected");
+  // on récupère l'adresse IP de la carte
+  Serial.print("IP address: ");
+  Serial.println(WiFi.localIP());
   // on lance le serveur
   server.begin();
 }
