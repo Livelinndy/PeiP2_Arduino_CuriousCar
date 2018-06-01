@@ -2,11 +2,11 @@
 
 Ce projet est réalisé dans le cadre de la formation de prépa intégrée de Polytech'NiceSophia.
 
-# Projet Arduino : Curious Car (en cours de développement)
+# Projet Arduino : Curious Car
 
 Curious Car est une petite voiture contrôlable par Wi-Fi à l’aide d’un ordinateur ou un smartphone. Une caméra IP embarquée permet de voir où va la voiture et d'observer ce qui se passe autour. La voiture a aussi les phares qu’on peut allumer ou éteindre. Curious Car fait un bel exemple de robot de téléprésence.
 
-(photo, vidéo des essais)
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Result.JPG" width="600">
 
 # Matériel utilisé
 
@@ -29,6 +29,6 @@ Une carte Wi-Fi programmable se connecte à un réseau Wi-Fi prédéfini dans le
 
 La caméra IP est totalement séparée du système. Elle a sa propre batterie et sa propre adresse IP. On peut accéder l’image à l’aide de l’application fournie avec la caméra.
 
-# Guide complet
+# Tutorial
 
 Disponible [ici](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/tutorial/fr.md).
