@@ -129,17 +129,27 @@ J’ai alimenté la carte Node Mcu avec un mini powerbank de charge 2200mAh via 
 
 Etape 7 : Assemblage final et des tests
 -
-On télécharge le [code](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/code/CuriousCar.ino) sur la carte Node Mcu.
+On télécharge le [programme](https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/code/CuriousCar.ino) sur la carte Node Mcu.
 
 On fait tous les branchements décrits précédemment.
 
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/ResultInside.JPG" alt="Branchements" width="600">
+
+On attache la caméra et le powerbank.
+
 Et c'est prêt !
 
-Pour se connecter au serveur créé par la carte Wi-Fi, il faut lire son adresse IP sur l'appareil auquel la carte s'est connectée. Ensuite, il faut connecter son ordinateur ou smartphone au même réseau Wi-Fi. Et finalement, il faut taper l'adresse IP récupéré précédemment dans la barre d'adresse du navigateur Internet.
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/Result.JPG" alt="Résultat final" width="600">
+
+Pour se connecter au serveur créé par la carte Wi-Fi, il faut lire son adresse IP sur l'appareil auquel la carte s'est connectée. Ou on peut le récupérer dans le Serial Monitor lors du téléchargement du programme.
+
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/GetCardIP.png" alt="Serial Monitor" width="600">
+
+Ensuite, il faut connecter son ordinateur ou smartphone au même réseau Wi-Fi. Et finalement, il faut taper l'adresse IP récupéré précédemment dans la barre d'adresse du navigateur Internet.
 
 En se connectant sur le serveur, on voit la page suivante :
 
-(image)
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/ServerPage.png" alt="Page du serveur" width="600">
 
 En appuyant sur un bouton ou en appuyant la touche qui correspond au nom du bouton on peut effectuer l'action écrité à côté du bouton.
 
