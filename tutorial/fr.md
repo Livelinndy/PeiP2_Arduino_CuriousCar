@@ -22,7 +22,7 @@ Voici la liste complète du matériel utilisé :
   <tr>
     <td width="300">
       <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/USBmicro.png" alt="USB micro" height="150">
-      <br>Cable USB micro (x1)<br><em>Pour télécharger les programmes sur l'Arduino et la carte Wi-Fi</em>
+      <br>Cable USB micro (x1)<br><em>Pour télécharger le programme sur la carte Wi-Fi</em>
     </td>
     <td width="300">
       <img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/L293D.png" alt="L293D" height="150">
@@ -68,8 +68,6 @@ Et, bien sûr, on aura besoin d'un ordinateur pour programmer les cartes Arduino
 Etape 2 : Préparer l'environnement informatique
 -
 On installe [Arduino IDE](https://www.arduino.cc/en/main/software) sur l'ordinateur si ce n'est pas encore fait. Cet environnement va nous permettre de programmer les cartes Arduino et Node Mcu 1.0.
-
-Ensuite, il faut installer le driver USB pour pouvoir utiliser votre carte Arduino. Dans ce projet, j'utilise la carte [ATmega328P Xplained MINI](https://www.microchip.com/developmenttools/productdetails.aspx?partno=atmega328p-xmini), donc j'ai installé le driver correspondant qu'on peut trouver sur cette [page](http://users.polytech.unice.fr/~pmasson/Enseignement-arduino.htm).
 
 Pour pouvoir travailler avec [Node Mcu 1.0](http://www.hotmcu.com/nodemcu-lua-wifi-board-based-on-esp8266-cp2102-module-p-265.html), on doit installer le driver [USB to UART](https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers).
 
@@ -149,7 +147,7 @@ Ensuite, il faut connecter son ordinateur ou smartphone au même réseau Wi-Fi. 
 
 En se connectant sur le serveur, on voit la page suivante :
 
-<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/ServerPage.png" alt="Page du serveur" width="600">
+<img src="https://github.com/Livelinndy/PeiP2_Arduino_CuriousCar/blob/master/images/ServerPage.png" alt="Page du serveur">
 
 En appuyant sur un bouton ou en appuyant la touche qui correspond au nom du bouton on peut effectuer l'action écrité à côté du bouton.
 
