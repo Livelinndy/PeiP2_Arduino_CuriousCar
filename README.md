@@ -27,7 +27,7 @@ Curious Car est une petite voiture contrôlable par Wi-Fi à l’aide d’un ord
 
 Une carte Wi-Fi programmable se connecte à un réseau Wi-Fi prédéfini dans le code. Elle crée un serveur sur le port 80 (port standard pour le protocole HTTP). Et quand un client va à son adresse IP dans un navigateur Internet, elle lui renvoie une page web interactive. Sur cette page il y a des boutons avec toutes les commandes possibles. Les commandes sont : tourner à droite ou à gauche, aller en avant ou en arrière, allumer ou éteindre les phares. En appuyant sur un bouton, la page se renouvelle avec une nouvelle requête GET dont le paramètre correspond à la commande écrite à côté du bouton. Cette requête est analysée par la carte Wi-Fi, et une action est réalisée en fonction de la commande reçue.
 
-La caméra IP est totalement séparée du système. Elle a sa propre batterie et sa propre adresse IP. On peut accéder l’image à l’aide de l’application fournie avec la caméra.
+La caméra IP est totalement séparée du système. Elle a sa propre batterie et sa propre adresse IP. On peut voir l’image à l’aide de l’application fournie avec la caméra.
 
 # Tutorial
 
